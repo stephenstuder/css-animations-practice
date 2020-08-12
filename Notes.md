@@ -18,3 +18,5 @@ Options:
 In order to set the examples, we add transition-property: translate() which defines that we want to move the elements for our transition, we also set the transform-duration: 3s which gives a duration. We add the transition-timing-function then finally we provide an action to the hover event. This is done by using transform: translate(900px, 0px) with the first argument being the x axis and the second being the y
 
 Another useful property is the transition delay property which works exactly as you would expect. It delays the start of the transition. transition-delay: 1s would mean that the transiton waits a second before beginning. 
+
+transition-property (the css that is animated) can take multiple arguments and also has an option for all. 
